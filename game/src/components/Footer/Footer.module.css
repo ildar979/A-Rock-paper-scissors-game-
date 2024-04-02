@@ -1,0 +1,23 @@
+.footer__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5em;
+  margin-bottom: 10vh;
+}
+
+.footer__container button {
+  min-width: 5vw;
+  background: inherit;
+  border: 2px solid white;
+  border-radius: 6px;
+  padding: 5px;
+  color: white;
+}
+
+.footer__container button:hover {
+  color: grey;
+  background: white;
+  border: 3px solid grey;
+}
