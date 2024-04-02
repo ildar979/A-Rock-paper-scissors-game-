@@ -20,3 +20,12 @@ export const ICON_BORDER_COLOR: Record<string, string> = {
   'spockIcon': 'grey',
   'lizardIcon': 'green',
 }
+
+export const BONUS_TOUR = ['paperIcon', 'scissorIcon', 'rockIcon', 'spockIcon', 'lizardIcon']
+export const SIMPLE_TOUR = ['paperIcon', 'scissorIcon', 'rockIcon']
+
+export const RESULT: Record<string, string> = {
+  'user': 'Вы победили',
+  'AI': 'Победил skynet',
+  'draw': 'Ничья',
+}

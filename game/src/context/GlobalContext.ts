@@ -7,6 +7,8 @@ interface MyContextType {
   setShowRulesModal: (state: boolean) => void
   userSelection: string
   setUserSelection: (state: string) => void
+  score: number
+  setScore: (state: number) => void
 }
 
 const GlobalContext = React.createContext<MyContextType | null>(null);
