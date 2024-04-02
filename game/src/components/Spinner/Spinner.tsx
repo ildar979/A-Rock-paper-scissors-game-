@@ -1,10 +1,15 @@
-import React from 'react'
-import './style.css'
+import React from 'react';
+import './style.css';
 
 const Spinner = () => {
   return (
-    <div className="lds-ring"><div></div><div></div><div></div><div></div></div>
-  )
-}
+    <div className='lds-ring'>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  );
+};
 
-export default Spinner
+export default Spinner;

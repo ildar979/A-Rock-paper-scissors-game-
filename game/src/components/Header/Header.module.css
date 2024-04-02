@@ -1,13 +1,13 @@
 .header__container {
-    border: 3px solid wheat;
-    border-radius: 0.4rem;
-    display: flex;
-    justify-content: space-between;
-    max-width: 600px;
-    width: 100%;
-    padding: 20px;
-    margin-top: 20px;
-    box-sizing: border-box;  
+  border: 3px solid wheat;
+  border-radius: 0.4rem;
+  display: flex;
+  justify-content: space-between;
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+  margin-top: 20px;
+  box-sizing: border-box;
 }
 
 .scorebox {

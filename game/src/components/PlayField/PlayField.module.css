@@ -16,7 +16,7 @@
   transition: 0.2s;
   border-radius: 50%;
   border: 18px solid;
-  transform: translateX(0px);  
+  transform: translateX(0px);
   background: rgb(236, 233, 228);
   display: flex;
   align-items: center;
@@ -25,7 +25,7 @@
   top: -69px;
   bottom: 0px;
   right: 0px;
-  left: -37px;  
+  left: -37px;
 }
 
 .paper__wrapper:hover {
@@ -74,7 +74,7 @@
   bottom: 0px;
   right: 0px;
   left: 126px;
-} 
+}
 
 .rock__wrapper:hover {
   transform: translateX(0px) scale(1.2);

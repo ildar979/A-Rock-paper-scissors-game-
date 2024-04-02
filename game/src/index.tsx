@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 // import './styles/App.scss';
-import './index.css'
+import './index.css';
 import ContextProvider from './context/ContextProvider';
 
 const root = ReactDOM.createRoot(
@@ -10,9 +10,8 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   // <React.StrictMode>
-    <ContextProvider>
+  <ContextProvider>
     <App />
-    </ContextProvider>
+  </ContextProvider>
   // </React.StrictMode>
 );
-

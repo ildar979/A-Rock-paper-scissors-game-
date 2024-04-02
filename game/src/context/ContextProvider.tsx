@@ -6,24 +6,25 @@ interface MyProviderProps {
 }
 
 const ContextProvider: React.FC<MyProviderProps> = ({ children }) => {
-
-  const [isBonusTour, setIsBonusTour] = useState(false)
-  const [showRulesModal, setShowRulesModal] = useState(false)
-  const [userSelection, setUserSelection] = useState('')
-  const [score, setScore] = useState(0)
+  const [isBonusTour, setIsBonusTour] = useState(false);
+  const [showRulesModal, setShowRulesModal] = useState(false);
+  const [userSelection, setUserSelection] = useState('');
+  const [score, setScore] = useState(0);
 
   const value = {
     isBonusTour,
     setIsBonusTour,
     showRulesModal,
     setShowRulesModal,
-    userSelection, 
+    userSelection,
     setUserSelection,
-    score, 
+    score,
     setScore,
   };
 
-  return <GlobalContext.Provider value={ value }> { children } </GlobalContext.Provider>
+  return (
+    <GlobalContext.Provider value={value}> {children} </GlobalContext.Provider>
+  );
 };
 
 export default ContextProvider;

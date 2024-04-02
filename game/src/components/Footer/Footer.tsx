@@ -1,19 +1,26 @@
-import React, { useContext } from 'react'
-import style from './Footer.module.css'
+import React, { useContext } from 'react';
+import style from './Footer.module.css';
 import GlobalContext from '../../context/GlobalContext';
 
 const Footer = () => {
+  const { isBonusTour, setIsBonusTour, setShowRulesModal, setUserSelection } =
+    useContext(GlobalContext);
 
-  const context = useContext(GlobalContext);
-  if (context === null) return null;  
-  const { isBonusTour, setIsBonusTour, setShowRulesModal } = context;
+  const playBonusTour = () => {
+    setIsBonusTour?.(!isBonusTour);
+    setUserSelection?.('');
+  };
+
+  const openRules = () => {
+    setShowRulesModal?.(true);
+  };
 
   return (
     <div className={style.footer__container}>
-      <button onClick={() => setIsBonusTour(!isBonusTour)}>Бонус</button>
-      <button onClick={() => setShowRulesModal(true)}>Правила</button>
+      <button onClick={playBonusTour}>Бонус</button>
+      <button onClick={openRules}>Правила</button>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

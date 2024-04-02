@@ -16,7 +16,7 @@
   transition: 0.2s;
   border-radius: 50%;
   border: 18px solid;
-  transform: translateX(0px);  
+  transform: translateX(0px);
   background: rgb(236, 233, 228);
   display: flex;
   align-items: center;
@@ -25,7 +25,7 @@
   top: 75px;
   bottom: 0px;
   right: 0px;
-  left: 280px;  
+  left: 280px;
 }
 
 .paper__wrapper:hover {
@@ -74,7 +74,7 @@
   bottom: 0px;
   right: 0px;
   left: 225px;
-} 
+}
 
 .rock__wrapper:hover {
   transform: translateX(0px) scale(1.2);
@@ -98,7 +98,7 @@
   bottom: 0px;
   right: 0px;
   left: 0px;
-} 
+}
 
 .spock__wrapper:hover {
   transform: translateX(0px) scale(1.2);
@@ -122,7 +122,7 @@
   bottom: 0px;
   right: 0px;
   left: 60px;
-} 
+}
 
 .lizard__wrapper:hover {
   transform: translateX(0px) scale(1.2);
