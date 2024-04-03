@@ -7,7 +7,8 @@
   width: 100%;
   padding: 20px;
   margin-top: 20px;
-  box-sizing: border-box;
+  margin: 20px auto 0 auto;
+  max-height: 164px;
 }
 
 .scorebox {
@@ -21,17 +22,27 @@
 .scorebox__title {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
   text-transform: uppercase;
   line-height: 2rem;
-  margin-top: 0;
-  margin-bottom: 0;
   font-size: 1.5rem;
+  font-weight: 600;
 }
 
 .scorebox__score {
   color: #522f87;
   font-size: 2.5rem;
   font-weight: 700;
+  text-align: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 776px) {
+  .header__container {
+    box-sizing: border-box;
+    margin: 3em 3em 0 1.5em;
+  }
+
+  .scorebox {
+    padding: 10px 15px;
+  }
 }
